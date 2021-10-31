@@ -1,0 +1,9 @@
+.films {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-page {
+    text-align: center;
+    font-size: 80px;
+}
