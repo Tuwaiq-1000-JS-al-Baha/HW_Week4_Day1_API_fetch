@@ -8,19 +8,24 @@ axios
     const moves = responseData
     console.log("moves:", moves)
     moves.forEach(function (move) {
-        const url = move.image
+        //release-data
       const release_date=move.release_date
       const moveRelease=`
       <div class="move-releas">
       <h5>${release_date}</h5>
       </div>`
       movesList.innerHTML+=moveRelease
-      const image = move.image
+//image
+
+      const image = move.image 
       const moveImge=`
-      <img.src="${image}">`
+      <image src="${image}">`
 
       movesList.innerHTML+=image
+
+//title
       const title = move.title
+
       const moveItem = `
       <div class="move-item">
       <h3>${title}</h3>
