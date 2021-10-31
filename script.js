@@ -3,8 +3,8 @@ axios.get("https://ghibliapi.herokuapp.com/films")
 .then(function(response){
  const responseData= response.data
 
-    console.log("responseData")
-    // , responseData )
+    console.log(responseData)
+    
     responseData.forEach(function (film){
          const name = film.title 
          const image= film.image
@@ -13,7 +13,7 @@ axios.get("https://ghibliapi.herokuapp.com/films")
     
      const allfilms = 
      `<div class="allfilms"> 
-     <h3 title is: ${name} , release data is ${release} </3h>
+     <h3>title is: ${name} , release data is ${release} <br> </3h>
      <img src="${image}"height="350px" width="350px" >
 </div>`
      
