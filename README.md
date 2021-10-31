@@ -8,3 +8,6 @@ Use the Ghibli API to create a website containing a list of films.
 
 On page load, your site should 
 - display all of the films as the image and the title and the release date
+
+### API documentation:
+- https://ghibliapi.herokuapp.com/#tag/Films
